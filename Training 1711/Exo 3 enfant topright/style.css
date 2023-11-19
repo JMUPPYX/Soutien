@@ -1,0 +1,28 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box;
+}
+/* purple en haut à droite du blue -* Par défaut le top est 0 et le left 0 */
+/* Absolute maitre de tout le monde il se positionne soit sur un relative soit sur le body par défaut */
+.blue{
+    width: 700px;;
+    height: 700px;
+    background-color:cyan;
+    position: relative;
+}
+
+.red{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+}
+
+.purple{
+        background-color: purple;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        right: 0;
+    }
+

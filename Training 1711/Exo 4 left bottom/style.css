@@ -1,0 +1,29 @@
+*{
+    margin:0 ;
+    padding:0 ;
+    box-sizing:border-box;
+}
+ /* purple en bas à gauche du red -  /* Par défaut le top est 0 et le left 0 */ 
+.blue{
+    width: 700px;;
+    height: 700px;
+    background-color:cyan;
+}
+
+/* Relative c'est moi ton parent */
+.red{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.purple{
+    background-color: purple;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
