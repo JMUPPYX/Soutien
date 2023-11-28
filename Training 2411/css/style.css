@@ -1,0 +1,334 @@
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+    
+}
+
+
+body{
+    height:400%;
+}
+/* header */
+
+/* div parent */
+.b-color{
+    background-color: bisque;
+}
+
+.h-150px{
+    height: 150px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.j-C{
+    justify-content: space-between;
+}
+.alignI{
+    align-items: center;
+}
+
+.p-30px{
+    padding: 30px;
+}
+
+/* logo div enfant 1 */
+
+.w-150px{
+    width: 150px;
+}
+.h-150px{
+    height: 150px;
+}
+
+
+
+/* div enfant 2 */
+.w-20{
+    width: 20%;
+}
+.p-relative{
+    position: relative;
+}
+
+/* input */
+
+.b-radius{
+    border-radius: 6px;
+}
+.b-color{
+    background-color: bisque;
+}
+
+.w-100{
+    width: 100%;
+}
+.h-40px{
+    height: 30px;
+}
+
+/* icon */
+.fa-magnifying-glass{
+    position: absolute;
+    bottom:5px;
+    right: 10px;   
+}
+
+/* nav */
+
+ /* div parent */
+.m-top50px{
+    margin-top: 50px;
+}
+/* ul div enfant  */
+.listS{
+    list-style: none;
+}
+.p-20px{
+    padding: 20px;
+}
+.j-Cstart{
+    justify-content:start;
+}   
+/* liste */
+.color {
+    color: #000;
+}
+.p-right90px{
+    padding-right:90px;
+}
+.fontS{
+    font-size: x-large;
+}
+/* icon moustache */
+.moustache{
+    position: absolute;
+    right: 30px;
+}
+
+/* banniere */
+
+
+.banniere{
+   width: 100%;   
+   position: relative;
+   /* box-shadow:unset (7px, 70px, 70px, #000); */
+
+}
+/* encart rdv */
+.rdv{
+    position: absolute;
+    transform:translate(50,50) ;
+    top: 50%;
+    left:50%;
+    background-color: rgb(13, 102, 102);
+    color: azure;
+    filter: drop-shadow(8px 8px 8px #000);
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;  
+    
+}
+
+/* presentation */
+/* JE VEUX QUE LE TEXTE SOIT PLUS BAS que le TITRE  */
+.container{
+    margin: 20px;  
+}
+.title{
+    font-size: 50px;
+}
+/* je veux que mon trait soit après le titre,ac une longueur + largeur + couleur noir + une épaisseur  */
+.title::after{
+    content: "";
+    position: absolute;
+    width: 15%;
+    background-color: black;
+    bottom: 10px;
+    height: 3px;  
+} 
+/* texte */
+.m-top10px{
+    margin-top : 30px;
+}
+.p-20px{
+    padding: 20px; 
+} 
+.f-size30px{
+    font-size: 30px;
+}
+.familyArial{
+    font-family: Arial, Helvetica, sans-serif 
+}
+.textAcenter{
+    text-align: center;
+}
+.mR-10{
+    margin-right: 10%;
+}
+
+/* services */
+.m-20{
+    margin-left: 10px;
+}
+/* div GRAND PARENT*/
+.cardg-p{
+    display: flex;
+    width: 100%; 
+    margin: auto;    
+    justify-content: flex-start;
+    align-items:flex-start; 
+}
+
+.car-parent{
+    padding: 5px;
+    border: 5px solid rgb(163, 126, 82);
+    margin: 33px;
+    width: 20%;    
+    position: relative;
+}
+.childimg{
+    width: 400px;     
+    height: 265px;
+}
+.imgsolo{
+    width: 400px;
+    height: 265px;
+}
+.child{
+    text-align: center;
+    padding-bottom:30%;
+    font-size: x-large; 
+    margin-top: 10px;  
+}
+.childsolo{
+    text-align: center;
+    padding-bottom:36%;
+    font-size: x-large;
+    margin-top: 10px;  
+}
+/* tarif */
+.tarif{
+    position: absolute;
+    bottom: 7px;
+    right: 20px;
+    color: azure;
+    background-color: rgb(13, 102, 102);
+    padding: 5px;
+    filter: drop-shadow(8px 8px 8px #5f5d5d);
+}
+
+/* footer1 DIV GRAND PARENT */
+.footer1{
+    width: 100%;
+    background-color: bisque;  
+    display: flex;   
+    justify-content: space-between;
+    align-items: normal;
+    height: 150px;   
+}
+/* texte liste */
+.footer{
+    font-size: 25px;
+}
+
+/* DIV PARENT */
+.footerparent{
+margin: 25px;
+padding-right: 200px;
+
+}
+
+/* icone réseaux sociaux */
+.lienreseaux{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.reseaux{
+    width: 30px;  
+}
+
+
+/* footer 2 */
+.footer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13, 102, 102); 
+    width: 100%;  
+}  
+    
+
+.copyright-color {
+    color: azure;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}  
+.icon{
+    border-right:solid 1px  azure;
+   
+}   
+    
+    
+   
+
+
+/*  je veux que mon trait vertical soit entre les deux titres,ac une longueur + largeur + couleur blanche + une épaisseur 
+
+.icon{
+    position: relative;  
+}
+.icon::after{
+    content:"";
+    position: absolute;
+    width: 20px;
+    background-color: azure;
+    height: 1px;     
+} */
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+     
+      
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
