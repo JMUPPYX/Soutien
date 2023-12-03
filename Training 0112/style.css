@@ -1,0 +1,73 @@
+*{
+    list-style: none;
+}
+form{
+    margin: auto;
+    width: 30%;
+    background-color: red;
+    border-radius: 10%;
+    
+    
+  }
+
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 355px;
+}
+
+.enfant label{
+    border-radius:10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* / Medium devices (tablets, less than 992px) /
+@media screen and (max-width: 992px) {
+
+}
+
+/Small devices (landscape phones, less than 768px) /
+@media screen and (max-width: 768px) {
+
+}
+/ X-Small devices (portrait phones, less than 576px) 
+@media screen and (max-width: 576px) { 
+
+}*/ 
+
+/* ne depasse pas cette valeur*/
+@media screen and (max-width: 992px) {
+    .enfant label{
+        display: block;
+       }
+       form{
+        text-align: center;
+       }
+     
+
+
+}
+
+
+/*  */
+@media screen and (max-width: 768px) {
+    /* .enfant label{
+        display: block;
+       }
+       form{
+        text-align: center;
+       }
+       .enfant{
+        margin: 10px 0;
+       }  */
+}
